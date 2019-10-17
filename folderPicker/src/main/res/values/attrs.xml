@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="fp_title_color" format="color"/>
+    <attr name="fp_location_color" format="color"/>
+    <attr name="fp_buttons_background" format="reference"/>
+    <attr name="fp_drawable_file" format="reference"/>
+    <attr name="fp_drawable_folder" format="reference"/>
+    <attr name="fp_drawable_ic_action_add" format="reference"/>
+    <attr name="fp_drawable_ic_action_back" format="reference"/>
+    <attr name="fp_drawable_ic_action_cancel" format="reference"/>
+    <attr name="fp_drawable_ic_action_up" format="reference"/>
+
+</resources>

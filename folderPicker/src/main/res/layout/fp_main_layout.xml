@@ -1,0 +1,117 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fp_title_layout">
+
+        <TextView
+            android:id="@+id/fp_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/title"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="?fp_title_color" />
+
+
+        <TextView
+            android:id="@+id/fp_tv_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fp_tv_title"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:gravity="left"
+            android:padding="5dp"
+            android:maxLines="5"
+            android:text="Current Location"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?attr/fp_location_color" />
+
+    </RelativeLayout>
+
+
+    <ListView
+            android:id="@+id/fp_listView"
+            android:layout_below="@id/fp_title_layout"
+            android:layout_above="@+id/fp_buttonsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:id="@+id/fp_buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:padding="5sp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="?attr/fp_buttons_background"
+            android:clickable="true"
+            android:src="?attr/fp_drawable_ic_action_up"
+            android:focusable="true"
+            android:gravity="center"
+            android:onClick="goBack"
+            android:padding="15dp"/>
+
+        <ImageView
+            android:id="@+id/fp_btn_new"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="?attr/fp_buttons_background"
+            android:clickable="true"
+            android:src="?attr/fp_drawable_ic_action_add"
+            android:focusable="true"
+            android:gravity="center"
+            android:onClick="newFolderDialog"
+            android:padding="15dp"/>
+
+        <ImageView
+            android:id="@+id/fp_btn_select"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="?attr/fp_buttons_background"
+            android:clickable="true"
+            android:src="?attr/fp_drawable_ic_action_back"
+            android:focusable="true"
+            android:gravity="center"
+            android:onClick="select"
+            android:padding="15dp"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/fp_buttons_background"
+            android:clickable="true"
+            android:src="?attr/fp_drawable_ic_action_cancel"
+            android:focusable="true"
+            android:gravity="center"
+            android:onClick="cancel"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

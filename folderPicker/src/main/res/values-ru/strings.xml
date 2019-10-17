@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Folder Picker</string>
+    <string name="cancel">Отмена</string>
+    <string name="create">Создать</string>
+    <string name="title">Выберите каталог</string>
+    <string name="create_folder_title">Введите имя каталога</string>
+    <string name="allow_storage_permission">Предоставьте разрешения для просмотра файлов</string>
+</resources>

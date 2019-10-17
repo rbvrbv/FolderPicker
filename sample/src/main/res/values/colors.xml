@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorActionBar">#007D69</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="colorButton1">#202020</color>
+    <color name="colorButton2">#303030</color>
+    <color name="colorButtonSelected1">#353535</color>
+    <color name="colorButtonSelected2">#454545</color>
+    <color name="colorNavigationBar">#202020</color>
+
+</resources>

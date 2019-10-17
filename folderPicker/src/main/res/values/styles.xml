@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FolderPickerTheme" parent="">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">#D0D0D0</item>
+        <item name="fp_buttons_background">@drawable/fp_button</item>
+        <item name="fp_title_color">@color/colorTitle</item>
+        <item name="fp_location_color">@color/colorLocation</item>
+        <item name="fp_drawable_file">@drawable/fp_file</item>
+        <item name="fp_drawable_folder">@drawable/fp_folder</item>
+        <item name="fp_drawable_ic_action_add">@drawable/fp_ic_action_add</item>
+        <item name="fp_drawable_ic_action_back">@drawable/fp_ic_action_back</item>
+        <item name="fp_drawable_ic_action_cancel">@drawable/fp_ic_action_cancel</item>
+        <item name="fp_drawable_ic_action_up">@drawable/fp_ic_action_up</item>
+    </style>
+
+</resources>

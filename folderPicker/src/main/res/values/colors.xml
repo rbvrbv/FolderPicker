@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorBackground">#101010</color>
+
+    <color name="colorOutline">#505050</color>
+
+    <color name="colorButton">#202020</color>
+    <color name="colorButtonSelected">#353535</color>
+
+    <color name="colorTitle">#E0E0E0</color>
+    <color name="colorLocation">#909090</color>
+
+</resources>
